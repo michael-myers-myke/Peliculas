@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    text-align: center;
+    margin: 20px;
+    padding-top: 20px;
+    color: red;
+}
+
+.container{
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 5% 32%;
+    box-shadow: 10px 10px 5px rgb(186, 57, 57);
+}
+
+select{
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Ocultar la sinopsis por defecto */
+li .sinopsis {
+    display: none;
+    font-size: 0.9em;
+    color: gray;
+    margin-top: 5px;
+}
+
+/* Mostrar la sinopsis al pasar el mouse */
+li:hover .sinopsis {
+    display: block;
+}
