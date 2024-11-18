@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buscador de Películas y Series</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        li .sinopsis {
+            display: none;
+            font-size: 0.9em;
+            color: gray;
+            margin-top: 5px;
+        }
+        li:hover .sinopsis {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Buscador de Películas y Series</h1>
+    <label for="tipo">Selecciona:</label>
+    <select id="tipo">
+        <option value="peliculas.json">Películas</option>
+        <option value="series.json">Series</option>
+    </select>
+    <br><br>
+    <label for="busqueda">Título:</label>
+    <input type="text" id="busqueda" placeholder="Escribe un título">
+    <button id="buscar">Buscar</button>
+    <ul id="resultados"></ul>
+
+    <script src="main.js"></script>
+</body>
+</html>
