@@ -1,0 +1,7 @@
+[
+    { "nombre": "BACK TO THE FUTURE", "sinopsis": "Un adolescente viaja al pasado accidentalmente y altera el curso de la historia familiar." },
+    { "nombre": "THE GODFATHER", "sinopsis": "La historia de una familia mafiosa en Nueva York y su lucha por el poder." },
+    { "nombre": "FORREST GUMP", "sinopsis": "Un hombre con un corazón puro atraviesa momentos icónicos de la historia de EE. UU." },
+    {"nombre": "THE USUAL SUSPECTS", "sinopsis": "Dave Kujan, un agente especial del servicio de aduanas de Estados Unidos, está investigando las causas del incendio de un barco, en el puerto de San Pedro de Los Ángeles, que provocó 27 víctimas mortales, aunque todas parecen haber sido asesinadas. Su única fuente de información es Roger Kint, un estafador lisiado que sobrevivió al incendio."},
+    {"nombre": "FARGO", "sinopsis": "Un hombre apocado y tímido, casado con la hija de un millonario que le impide disfrutar de su fortuna, decide contratar a dos delincuentes para que secuestren a su mujer con el fin de montar un negocio propio con el dinero del rescate. Pero, por una serie de azarosas circunstancias, al secuestro se suman tres brutales asesinatos, lo que obliga a la policía a intervenir."}
+]
